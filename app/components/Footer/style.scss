@@ -1,0 +1,19 @@
+footer {
+  position : absolute;
+  bottom : 0;
+  height : 40px;
+  width: calc(100% - 4em);
+  margin-top : 40px;
+  display: flex; 
+  justify-content: space-between;
+  padding: 3em 0;
+
+  a {
+    color: #ea212d;
+  
+    &:hover {
+      color: #ea212d;
+      opacity: 0.75;
+    }
+  }
+}
