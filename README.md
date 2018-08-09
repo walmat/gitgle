@@ -1,4 +1,5 @@
-# Fire Links – A Slack based sneaker community
+# Heading 1 #
+============= A Slack Based Sneaker Community
 
 <div align="center">A react friendly environment for the current sneaker group called Fire Links</div>
 
