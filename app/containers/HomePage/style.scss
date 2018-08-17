@@ -50,18 +50,29 @@
   Button {
     outline: none;
     border: 2px solid #E0E0E0;
-    margin-top: -0.23em;
+    margin-top: -0.20em;
     background-image: linear-gradient(-180deg, #FFFFFF 0%, #EFEFEF 100%);
     border: 2px solid #E0E0E0;
-    border-radius: 5px;
+    border-radius: 3px;
     padding: .55em;
-    font-size:83%;
+    font-size:68%;
     min-width: 5%;
     margin-right: -0.15em;
     padding-right: .55em;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     width: 35px;
+  }
+  Button:hover {
+    border: 2px solid #EA212D;
+    background: #FAA31A;
+    -webkit-transition: background-color -100ms linear;
+    -ms-transition: background-color -100ms linear;
+    transition: background-color -100ms linear;
+  }
+
+  Button:hover path:nth-child(1) {
+    fill: #f0f0f0;
   }
 
   .input-box { margin-top: 50%; position: relative; }

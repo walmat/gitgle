@@ -8,11 +8,19 @@ footer {
   justify-content: space-between;
   padding: 3em 0;
 
+  span {
+    color: #ea212d;
+  }
+
+  span:hover {
+    color: #FAA31A;
+  }
+
   a {
     color: #ea212d;
   
     &:hover {
-      color: #ea212d;
+      color: #FAA31A;
       opacity: 0.75;
     }
   }
